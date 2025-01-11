@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200..700&display=swap');
+
+#header {
+    text-align: center;
+    padding: 20px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+#qContainer {
+    border: 3px solid hsl(103, 83%, 29%);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px;
+}
+
+.h2 {
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-right: 60px;
+}
+
+.p {
+    font-family: "Old Standard TT", serif;
+    font-weight: bold;
+    font-style: normal;
+    margin-left: 400px;
+}
+
+#generate {
+    display: block;
+    margin: auto;
+    margin-top: 90px;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(78, 167, 78);
+    color: white;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.77);
+}
+
+#generate:hover {
+    background-color: rgb(29, 182, 80);
+}
+

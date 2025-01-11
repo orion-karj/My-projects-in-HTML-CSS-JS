@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 id="heading">quiz app</h1>
+    <div id="qcontainer">
+        <p id="question">you have 10 secondes to answer each question</p>
+        <div id="choices">
+            <button id="green" class="choiceBtn">Good Luck!</button>
+            <button id="blue" class="choiceBtn">Good Luck!</button>
+            <button id="yellow" class="choiceBtn">Good Luck!</button>
+            <button id="red" class="choiceBtn">Good Luck!</button>
+        </div>
+        <h2 id="resultDisplay" style="display: none;">you are right!</h2>
+        <h2 id="scoreDisplay" style="display: none;">score display</h2>
+    </div>
+    <button id="nextqbtn" onclick="next()">Next question  -></button>
+
+
+    <script src="index.js"></script>
+</body>
+</html>

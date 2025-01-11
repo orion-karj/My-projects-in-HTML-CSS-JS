@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bungee+Tint&family=Jersey+10&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Matemasie&family=Roboto+Slab:wght@100..900&display=swap');
+
+#header {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding: 20px;
+    font-size: 3rem;
+    text-align: center;
+}
+
+#inputDiv {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    height: 100px;
+    width: 300px;
+    padding: 20px;
+}
+
+#inputDiv input {
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.37);
+    height: 50px;
+}
+
+#inputDiv button {
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.692);
+    height: 50px;
+    width: 70px;
+    background-color: hsla(240, 81%, 54%, 0.932);
+    color: beige;
+}
+
+#container {
+    margin: auto;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    border: 3px solid black;
+    border-radius: 10px;
+    height: 500px;
+    width: 600px;
+}
+
+#timer {
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgba(0, 0, 0, 0.473);
+    border-radius: 10px;
+    height: 200px;
+    width: 400px;
+    font-size: 3rem;
+    background-color: rgba(159, 186, 236, 0.486);
+}
+
+#btns {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    height: 100px;
+    width: 300px;
+}
+
+.cntrlBtns {
+    font-size: 15px;
+    border: none;
+    border-radius: 100px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.692);
+    height: 50px;
+    width: 70px;
+    background-color: hsla(240, 81%, 54%, 0.932);
+    color: beige;
+}
+
+.cntrlBtns:hover {
+    background-color: hsla(240, 81%, 54%, 0.596);
+}

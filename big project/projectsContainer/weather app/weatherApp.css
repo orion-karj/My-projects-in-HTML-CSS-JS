@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+#header {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding: 0px;
+    font-size: 70px;
+}
+
+#inputContainer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#inputContainer input {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(124, 189, 189, 0.367);
+    text-align: left;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.216);
+}
+
+#inputContainer button {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(26, 224, 42, 0.536);
+    text-align: left;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.216);
+}
+
+#inputContainer button:hover {
+    background-color: rgba(26, 224, 42, 0.7);
+    cursor: pointer;
+}
+
+#card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-radius: 8px;
+    width: 300px;
+    height: 450px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    padding: none;
+    background: rgb(34,193,195);
+    background: linear-gradient(186deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+.name {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 20px;
+    margin-top: 50px;
+}
+
+.temp {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 20px;
+}
+
+.humidity {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 20px;
+}
+
+.desc {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 0px;
+}
+
+.emoji {
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+}

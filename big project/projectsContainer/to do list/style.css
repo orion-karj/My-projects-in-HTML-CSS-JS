@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap');
+
+
+body {
+    background-color: hsl(0, 0%, 0%);
+}
+
+#opening {
+    text-align: center;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 3rem;
+    padding: 30px;
+    color: white;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+    height: 100px;
+    width: 400px;
+    margin: auto;
+    border-radius: 7px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(255, 255, 255, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;   
+}
+
+form {
+    padding: 10px;
+    gap: 10px;
+}
+
+#taskInp {
+    background-color: rgb(26, 243, 117);
+    border: none;
+    outline: none;
+    font-size: 16px;
+    height: 50px;
+    border-radius: 7px;
+}
+
+#submitBtn {
+    background-color: rgb(219, 81, 81);
+    border: none;
+    outline: none;
+    font-size: 16px;
+    height: 50px;
+    border-radius: 7px;
+    transition: 0.3s ease-in-out;
+}
+
+#submitBtn:hover {
+    background-color: rgba(219, 81, 81, 0.582);
+}
+
+#taskContainer {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: blanchedalmond;
+    margin: auto;
+    margin-top: 40px;
+    width: 400px;
+    height: 600px;
+    border-radius: 7px;
+    box-shadow: rgba(255, 255, 255, 0.3) 0px 1px 1px 0px inset, rgba(255, 255, 255, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;  
+    overflow-y: scroll;
+    
+}
+
+#taskContainer::-webkit-scrollbar {
+    display: none;
+}
+
+#tasks {
+     display: flex;
+     justify-content: space-between;
+     flex-direction: column;
+     width: 100%;
+     margin-top: 20px;
+     padding: 10px;
+}
+
+#task {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.task {
+    display: inline-block;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 20px;
+  }
+  
+.removeBtn {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 10px;
+    line-height: 1;
+    border-radius: 500px;
+    transition-property: background-color,border-color,color,box-shadow,filter;
+    transition-duration: .3s;
+    border: 1px solid transparent;
+    min-width: 80px;
+    text-transform: uppercase;
+    white-space: normal;
+    font-weight: 700;
+    text-align: center;
+    padding: 6px 5px 7px;
+    color: #fff;
+    background-color: hsla(0, 100%, 50%, 0.685);
+    height: 30px;
+
+  }
+
+.removeBtn:hover{
+    background-color: hsl(0, 100%, 50%);
+}

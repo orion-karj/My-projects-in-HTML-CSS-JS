@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bungee+Tint&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Matemasie&family=Roboto+Slab:wght@100..900&display=swap');
+
+#header {
+    text-align: center;
+    padding: 20px;
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+#playContainer {
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 700px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#playContainer h2 {
+    padding: 20px;
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#playBtns {
+    padding: 14px;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+
+}
+
+.btns {
+    background-color: aqua;
+    border: none;
+    border-radius: 50px;
+    font-size: 3rem;
+    padding: 5px;
+}
+
+.btns:hover {
+    background-color: rgb(9, 184, 184);
+}
+
+#choiceDisplay {
+    text-align: center;
+    padding: 20px;
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 400px;
+    display: flex;
+    justify-content: space-between; 
+}
+
+#gameScore {
+    text-align: center;
+    padding: 20px;
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
